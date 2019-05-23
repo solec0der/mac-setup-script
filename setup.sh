@@ -7,10 +7,6 @@ brew install git
 brew install node
 brew install zsh
 
-xcode-select
-
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 brew cask install firefox
 brew cask install alfred
 brew cask install visual-studio-code
@@ -27,3 +23,6 @@ brew cask install qbittorrent
 brew cask install resilio-sync
 brew cask install teamviewer
 brew cask install whatsapp
+
+# oh my zsh has to be installed last, because otherwise it will interrupt the installation of the other tools.
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
