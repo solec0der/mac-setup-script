@@ -7,10 +7,23 @@ brew install git
 brew install node
 brew install zsh
 
+xcode-select
+
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 brew cask install firefox
 brew cask install alfred
 brew cask install visual-studio-code
-
-
+brew cask install spotify
+brew cask install discord
+brew cask install cinebench
+brew cask install gimp
+brew cask install karabiner-elements
+brew cask install lastpass
+brew cask install iterm2
+brew cask install mamp
+brew cask install path-finder
+brew cask install qbittorrent
+brew cask install resilio-sync
+brew cask install teamviewer
+brew cask install whatsapp
